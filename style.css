@@ -60,6 +60,7 @@ body {
 .button-group {
   display: flex;
   align-items: center;
+  /* flex-wrap: wrap; */
   margin-right: 3rem;
   gap: 2rem;
 }
@@ -264,5 +265,146 @@ body {
   .square-one {
     left: 16%;
     bottom: 18%;
+  }
+}
+@media (max-width: 900px) {
+  html {
+    font-size: 45%;
+  }
+  .logo {
+    width: 12rem;
+    height: auto;
+  }
+
+  .search-icon {
+    width: 5rem;
+    margin-left: 5rem;
+  }
+  .nav-button {
+    width: 11rem;
+    /* margin-right: 10rem; */
+  }
+  .square-one {
+    display: none;
+  }
+
+  .star-one {
+    width: 5rem;
+  }
+  .star1-one {
+    width: 5rem;
+  }
+  .globe-one {
+    width: 5rem;
+  }
+}
+@media (max-width: 700px) {
+  html {
+    font-size: 45%;
+  }
+  .logo {
+    width: 12rem;
+    height: auto;
+  }
+
+  .search-icon {
+    width: 5rem;
+    margin-left: 5rem;
+  }
+  .nav-button {
+    width: 11rem;
+    /* margin-right: 10rem; */
+  }
+  .hero-container {
+    grid-template-columns: 1fr;
+  }
+  .hero-image {
+    width: 70%;
+    margin-left: 12rem;
+  }
+  .right-side {
+    margin-left: 8rem;
+  }
+  .hero-heading {
+    margin: 0 auto;
+  }
+  .hero-description {
+    margin: 0 auto;
+    padding: 0rem 15rem;
+  }
+  .square-one {
+    display: none;
+  }
+
+  .star-one {
+    display: none;
+  }
+  .star1-one {
+    display: none;
+  }
+  .globe-one {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 45%;
+  }
+  .container {
+    /* width: 100%; */
+  }
+  .logo {
+    width: 10rem;
+    margin-right: 5rem;
+    height: auto;
+  }
+  .button-group {
+    display: none;
+  }
+  .list {
+    gap: 3rem;
+    margin-right: 10rem;
+  }
+  .list-item {
+    font-size: 1.5rem;
+  }
+
+  .search-icon {
+    width: 5rem;
+    margin-left: 5rem;
+  }
+  .nav-button {
+    width: 11rem;
+    /* margin-right: 10rem; */
+  }
+  .hero-container {
+    grid-template-columns: 1fr;
+  }
+  .hero-image {
+    width: 70%;
+    margin-left: 12rem;
+  }
+  .right-side {
+    margin-left: 8rem;
+  }
+  .hero-heading {
+    margin: 0 auto;
+  }
+  .hero-description {
+    margin: 0 auto;
+    padding: 0rem 15rem;
+  }
+  .square-one {
+    display: none;
+  }
+
+  .star-one {
+    display: none;
+  }
+  .star1-one {
+    display: none;
+  }
+  .globe-one {
+    display: none;
   }
 }
