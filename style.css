@@ -381,18 +381,19 @@ body {
     grid-template-columns: 1fr;
   }
   .hero-image {
-    width: 70%;
+    width: 60%;
     margin-left: 12rem;
   }
   .right-side {
     margin-left: 8rem;
   }
   .hero-heading {
-    margin: 0 auto;
+    margin-right: 5rem;
+    font-size: 3.5rem;
   }
   .hero-description {
     margin: 0 auto;
-    padding: 0rem 15rem;
+    padding: 0rem 5rem;
   }
   .square-one {
     display: none;
@@ -406,5 +407,11 @@ body {
   }
   .globe-one {
     display: none;
+  }
+  .button-email {
+    width: 22rem;
+  }
+  .button-join {
+    width: 22rem;
   }
 }
